@@ -5,7 +5,7 @@ OBJECTS = main.o
 	g++  $(GPPPARAMS) -o $@ -c $<
 
 build: $(OBJECTS)
-	g++ $(OBJECTS) -o stegno 
+	g++ $(OBJECTS) -o cpswrite 
 
 clean:
-	rm stegno *.o
+	rm cpswrite *.o
