@@ -1,4 +1,4 @@
-GPPPARAMS = `pkg-config --cflags --libs opencv4`
+GPPPARAMS = '-Wall'
 OBJECTS = main.o
 
 %.o: %.cpp
